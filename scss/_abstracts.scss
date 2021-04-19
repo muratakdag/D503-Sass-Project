@@ -1,11 +1,11 @@
 /*FONTS*/
 
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
 
 /*VARIABLES*/
 
-$primary-font: 'Changa', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: "Changa", sans-serif;
+$secondary-font: "Open Sans", sans-serif;
 $primary-color: #e51515;
 $secondary-color: #14151a;
 $date-color: #ffb320;
@@ -28,6 +28,16 @@ $light-color: #fefefe;
   &-2 {
     margin-left: 2rem;
   }
+}
+
+.text-white {
+  color: $light-color;
+}
+.text-primary {
+  color: $primary-color;
+}
+.text-center {
+  text-align: center;
 }
 
 /*MIXINS*/
