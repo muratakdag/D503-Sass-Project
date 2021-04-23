@@ -12,6 +12,7 @@ $date-color: #ffb320;
 $comment-color: #08abbd;
 $gray-color: #9f9f9f;
 $light-color: #fefefe;
+$general-transition: all 0.5s;
 
 /*UTILITIES*/
 
@@ -41,7 +42,7 @@ $light-color: #fefefe;
 }
 
 /*MIXINS*/
-@mixin flex-display($display, $justify-content, $align-items) {
+@mixin flex-display($display, $align-items, $justify-content) {
   display: $display;
   justify-content: $justify-content;
   align-items: $align-items;
